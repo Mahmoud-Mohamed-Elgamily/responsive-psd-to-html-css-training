@@ -1,0 +1,638 @@
+/* Variables */
+
+
+/* skew no skew */
+
+.skew {
+    transform: skewY(-4deg);
+}
+
+.skew .noskew {
+    transform: skewY(4deg);
+}
+
+
+/* Header Navigation  */
+
+.navbar-default {
+    margin-top: 25px;
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-default .navbar-nav li a {
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid #fff;
+    margin-right: 40px;
+    font-family: "Archer Semibold";
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background: none;
+    color: #2179ce;
+    border-bottom: 1px solid #1e6ab4;
+}
+
+.navbar-default .navbar-nav> :last-child a {
+    margin-right: 0;
+}
+
+.navbar-default button {
+    border-radius: 25px;
+    background-color: #96d019;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+    font-family: "gotham rounded bold";
+}
+
+
+/* your design  */
+
+#design h1 {
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 90px;
+    font-family: "archer semibold italic";
+}
+
+#design h3 {
+    font-size: 41px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color: #1e6ab4;
+    font-family: "gotham rounded book";
+}
+
+#design p {
+    font-size: 16px;
+    width: 480px;
+    margin-bottom: 35px;
+    font-family: "Gotham Book";
+}
+
+#design button {
+    background: #fff;
+    border-color: #c3ced8;
+    color: #112e4a;
+    height: 70px;
+    width: 280px;
+    border-radius: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "gotham rounded Bold";
+}
+
+#design button span {
+    margin-left: 7px;
+    font-size: 10px;
+    color: #1e6ab4;
+    position: relative;
+    top: -2px;
+}
+
+#design img {
+    margin-top: -50px;
+    position: relative;
+    left: -30px;
+    top: 100px;
+    z-index: 5;
+}
+
+
+/* floating button */
+
+.btn1 {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #1e6ab4;
+    color: white;
+    margin-left: 150px;
+    position: relative;
+    top: 58px;
+    z-index: 5;
+}
+
+.btn1::before {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+
+/* Focus design  */
+
+#focus {
+    background: url("../img/bg-blue.png");
+}
+
+#focus h1 {
+    margin-top: 115px;
+    margin-bottom: 0;
+    font-family: "Archer BoldItalic";
+    font-size: 41px;
+}
+
+#focus h2 {
+    font-size: 48px;
+    font-family: "GothamRounded Book";
+    color: #1e6ab4;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+#focus h5 {
+    margin-top: 150px;
+    font-size: 14px;
+    font-family: "GothamRounded Book";
+    color: #1e6ab4;
+}
+
+#focus h3 {
+    font-size: 31px;
+    font-family: "Archer BoldItalic";
+}
+
+#focus p {
+    width: 430px;
+    font-size: 16px;
+    font-family: "Gotham Book";
+}
+
+#focus .col-sm-7 img {
+    margin-top: 80px;
+}
+
+#focus .navbar-nav {
+    margin-top: 80px;
+    border-bottom: none;
+}
+
+#focus .navbar-nav li a {
+    font-size: 14px;
+    color: black;
+    margin-right: 40px;
+    font-family: "gotham bold";
+    border-bottom: none;
+    border-top: 1px solid transparent;
+    transition: all .5s;
+}
+
+#focus .navbar-nav li a:hover {
+    background: none;
+    font-weight: bold;
+    border-top: 1px solid #bbbfc6;
+    border-bottom: none;
+}
+
+#focus .navbar-nav li a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#focus .navbar-nav> :last-child a {
+    margin-right: 0;
+}
+
+
+/* floating button 2 */
+
+.btn2 {
+    position: relative;
+    top: -2px;
+    left: 200px;
+    color: black;
+    background-color: #fff;
+}
+
+.btn2::before {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+
+/* Team */
+
+#team .container {
+    margin-top: 150px;
+    width: 1050px;
+}
+
+#team .container .row .col-sm-5 h2 {
+    font-style: italic;
+    font-family: "Archer BoldItalic";
+    font-size: 42px;
+}
+
+#team .container .row .col-sm-5 h1 {
+    font-size: 48px;
+    font-family: "gotham rounded book";
+    color: #96d019;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+}
+
+#team .container .row .col-sm-5 p {
+    font-family: "Gotham Book";
+    font-size: 14px;
+}
+
+#team .container .row .col-sm-5 h3 {
+    margin: 70px 0 30px;
+}
+
+#team .container .row .col-sm-5 .col-sm-4 {
+    margin-left: -15px;
+}
+
+#team .container .row .col-sm-7 {
+    margin-bottom: 150px;
+}
+
+#team .container #h2h3 h2 {
+    font-style: italic;
+    font-family: "Archer BoldItalic";
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+#team .container #h2h3 h3 {
+    font-size: 48px;
+    font-family: "GothamRounded Book";
+    color: #1e6ab4;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+#team .container #psd h3 {
+    font-family: "Archer BoldItalic";
+    font-size: 24px;
+    color: #96d019;
+}
+
+#team .container #psd h3::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 95px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#team .container #psd p {
+    margin: 0 auto;
+    width: 400px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Gotham Book";
+}
+
+#team .container #psd p span {
+    font-weight: bold;
+    font-family: "Gotham Bold";
+    color: #96d019;
+}
+
+#team .container #wp {
+    margin-top: 180px;
+}
+
+#team .container #wp h3 {
+    font-family: "Archer BoldItalic";
+    font-size: 24px;
+    color: #1e6ab4;
+}
+
+#team .container #wp h3::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 95px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#team .container #wp p {
+    margin: 0 auto;
+    width: 450px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Gotham Book";
+    margin-bottom: 100px;
+}
+
+#team .container #wp p span {
+    font-weight: bold;
+    font-family: "Gotham Bold";
+    color: #1e6ab4;
+}
+
+#team .container #wep-app h3 {
+    font-family: "Archer BoldItalic";
+    font-size: 24px;
+    color: #1e6ab4;
+    font-family: "Archer BoldItalic";
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#team .container #wep-app h3::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 95px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#team .container #wep-app p {
+    font-family: "Gotham Book";
+    font-size: 14px;
+    width: 420px;
+    margin: 0 auto 90px;
+    text-align: left;
+}
+
+#team .container #wep-app p span {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Gotham Bold";
+}
+
+
+/* Workers */
+
+#workers {
+    background: url("../img/bg-blue.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+}
+
+#workers #workersinner {
+    background: rgba(23, 46, 82, 0.6);
+}
+
+#workers #workersinner h3 {
+    font-family: "Archer BoldItalic";
+    font-size: 42px;
+    color: white;
+    margin-top: 120px;
+    font-style: italic;
+}
+
+#workers #workersinner h2 {
+    font-size: 42px;
+    font-family: "GothamRounded Book";
+    text-transform: uppercase;
+    color: #1e6ab4;
+    letter-spacing: 10px;
+}
+
+#workers #workersinner p {
+    width: 750px;
+    margin: 0 auto;
+    font-family: "Gotham Book";
+    font-size: 16px;
+    color: white;
+}
+
+#workers #workersinner p::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+}
+
+#workers #workersinner button {
+    height: 35px;
+    width: 190px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    background-color: #416136;
+    border: 3px solid #799e4c;
+    font-size: 14px;
+    color: white;
+    margin: 0 35px 75px 0;
+    font-family: "gotham rounded bold";
+}
+
+#workers #workersinner small {
+    font-size: 16px;
+    font-family: "GothamRounded Medium";
+    color: white;
+}
+
+#workers #workersinner .row .col-sm-3 {
+    height: 360px;
+    width: 275px;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 0 8px 0;
+    margin-bottom: 120px;
+}
+
+#workers #workersinner .row .col-sm-3 img {
+    margin-top: 40px;
+}
+
+#workers #workersinner .row .col-sm-3 h6 {
+    font-family: "GothamRounded Bold";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#workers #workersinner .row .col-sm-3 h5 {
+    font-family: "GothamRounded Bold";
+    font-size: 12px;
+    color: #1e6ab4;
+    text-transform: uppercase;
+}
+
+#workers #workersinner .row .col-sm-3 p {
+    width: 250px;
+    color: black;
+    font-family: "Archer MediumItalic";
+    font-style: italic;
+}
+
+
+/* contact */
+
+#contact {
+    background-image: url("../img/bg-blue.png");
+}
+
+#contact h2 {
+    margin-top: 75px;
+    font-family: "Archer BoldItalic";
+    font-size: 42px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#contact h3 {
+    font-size: 42px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #1e6ab4;
+    font-family: "GothamRounded Book";
+    margin-bottom: 50px;
+}
+
+#contact h4 {
+    font-family: "Archer BoldItalic";
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+#contact h4::before,
+#contact h4::after {
+    content: "";
+    margin: 0 15px;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    width: 80px;
+    height: 1px;
+    border-top: 1px solid #bbb;
+}
+
+#contact p {
+    font-size: 28px;
+    font-family: "GothamRounded Medium";
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#contact p span {
+    margin-right: 20px;
+    color: #1e6ab4;
+}
+
+#contact p button {
+    width: 170px;
+    height: 40px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    border-radius: 25px;
+    background-color: #1e6ab4;
+    font-size: 14px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+
+/* location */
+
+#location {
+    margin: 70px auto 80px;
+}
+
+#location h6 {
+    font-family: "Gotham Medium";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #222428;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer .container {
+    margin-top: 60px;
+}
+
+#footer .container #first {
+    margin-top: 15px;
+    padding: 0px;
+}
+
+#footer .container #first li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 13px 0;
+    border-right: 1px solid #56585b;
+}
+
+#footer .container #first li a {
+    color: #56585b;
+}
+
+#footer .container #first #last {
+    border-right: none;
+}
+
+#footer .container #first h4 {
+    font-family: "Archer Bold";
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#footer .container h4 {
+    font-family: "archer Bold";
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#footer .container h4+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer .container h4+ul li {
+    margin-top: 15px;
+}
+
+#footer .container h4+ul li a {
+    text-transform: capitalize;
+    color: #56585b;
+}
+
+#footer .container p {
+    font-family: "archer semibold";
+    font-size: 16px;
+    color: #56585b;
+    margin: 20px 0;
+}
+
+#footer .container button {
+    width: 190px;
+    height: 35px;
+    background-color: transparent;
+    font-family: "gotham roundedmedium";
+    color: white;
+    border: solid 4px #1e6ab4;
+    border-radius: 20px;
+}
+
+
+/*# sourceMappingURL= styles.css.map */
